@@ -16,7 +16,7 @@ Social Media app project for neogCamp [ProjectTwo]
 12. Login 
 13. Logout
 
-# Link[https://social-pulse.netlify.app/]
+# Link (https://social-pulse.netlify.app/)
 
 # Build with:
 Mockbee (for backend)
