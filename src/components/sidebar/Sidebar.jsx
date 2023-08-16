@@ -6,8 +6,6 @@ import {
   BiSolidBookmark,
   BiSolidUser,
   MdAddCircle,
-  BsThreeDots,
-  MdLogout,
 } from "../../utils/icons";
 import { useAuth } from "../../context/authContext";
 import { socialLogo } from "../../utils/constants";
@@ -66,7 +64,7 @@ export function Sidebar() {
               className="flex items-center text-gray-600 hover:text-emerald-400"
             >
               <BiSolidBookmark className="w-6 h-6" />
-              <span className="ml-2 text-xl">Bookmark</span>
+              <span className="ml-2 text-xl">Bookmarks</span>
             </NavLink>
           </li>
 

@@ -26,7 +26,7 @@ export default function Bookmark() {
       <div className="w-2/4 border border-gray-700 md:items-center">
         <div className="flex flex-row justify-between border-b-2 border-gray-500 pb-2">
           <h2 className="font-bold text-lg text-center m-3 text-gray-600">
-            Bookmark
+            Bookmarks
           </h2>
           <Searchbar className="w-full" />
         </div>
@@ -40,7 +40,7 @@ export default function Bookmark() {
           ))
         ) : (
           <h1 className="font-medium text-lg text-center mt-10 text-grey-600">
-            No Bookmarks
+            No Bookmarks yet...
           </h1>
         )}
       </div>

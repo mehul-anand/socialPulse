@@ -25,12 +25,12 @@ export default function Login() {
   }, [token]);
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-900">
+    <div className="flex justify-center items-center h-screen bg-emerald-100">
       <form
         className="w-80 bg-white shadow-md rounded px-8 pt-6 pb-8"
         onSubmit={loginFormSubmitHandler}
       >
-        <h2 className="text-2xl font-bold mb-4">Sign In</h2>
+        <h2 className="text-2xl font-bold mb-4 text-emerald-300">Sign In</h2>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Username
@@ -68,7 +68,7 @@ export default function Login() {
         <div className="flex items-center justify-between">
           <button
             type="submit"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-emerald-400 hover:bg-emerald-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
             Login
           </button>
@@ -88,7 +88,7 @@ export default function Login() {
         </div>
         <p className="text-sm mt-4 text-gray-600">
           Don't have an account?{" "}
-          <Link to="/signup" className="text-blue-500">
+          <Link to="/signup" className="text-emerald-200">
             Sign Up
           </Link>
         </p>
